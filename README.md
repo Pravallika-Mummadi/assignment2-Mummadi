@@ -13,3 +13,6 @@ My Favourite team player in carroms is Rashmi Kumari.
 1. A. Maria Irudayam
 2. Nishantha Fernando
 3. Chamil Cooray
+
+* K. Srinivas
+* S. Ilavazhagi
