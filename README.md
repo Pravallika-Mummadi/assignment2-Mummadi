@@ -10,6 +10,6 @@ I love to play **Carroms** .It was during lockdown days when my family and I use
 ***********************
 # CARROMS CHAMPION
 My Favourite team player in carroms is Rashmi Kumari.
-* A. Maria Irudayam
-* Nishantha Fernando
-* Chamil Cooray
+1. A. Maria Irudayam
+2. Nishantha Fernando
+3. Chamil Cooray
