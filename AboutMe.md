@@ -4,5 +4,4 @@ Interesting facts about me are rare because i am boring person. The more boring 
 
 ![Image][C:\Users\S555592\Desktop\webapps-repos\assignment2-Mummadi\IMG_0203 (2).JPG]
 
-
-<a rel="me" href="C:\Users\S555592\Desktop\webapps-repos\assignment2-Mummadi\IMG_0203 (2).JPG">Mastodon</a>
+Lets go to git <https://github.com/Pravallika-Mummadi/assignment2-Mummadi/blob/main> 
