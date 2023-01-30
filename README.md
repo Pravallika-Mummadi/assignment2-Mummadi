@@ -18,4 +18,4 @@ My Favourite team player in carroms is Rashmi Kumari.
 * S. Ilavazhagi
 * B. Radhakrishnan
 
-this is the link to AboutMe.md <C:\Users\S555592\Desktop\webapps-repos\assignment2-Mummadi\AboutMe.md>
+[This is the link to AboutMe.md](AboutMe.md)
