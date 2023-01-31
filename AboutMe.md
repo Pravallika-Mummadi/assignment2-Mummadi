@@ -22,42 +22,17 @@ Interesting facts about me are rare because i am boring person. The more boring 
  >**"Have a cup of coffee when you are happy,bored,sad"** -- *Pravallika Mummadi*
 
  *************
-  Link for the article <https://docs.aws.amazon.com/marketplace/latest/userguide/saas-code-examples.html> 
- ># ResolveCustomer code with x-amzn-marketplace-token token for a CustomerIdentifier, ProductCode, and CustomerAWSAccountId. 
+  Link for the article <https://stackoverflow.com/questions/55998632/setup-saas-based-application-with-laravel> 
+ ># Setup Saas based Apllication with larvel
 
  ```
- //Import AWS Python SDK and urllib.parse 
+ $envFile = $_SERVER['HTTP_HOST'] == 'aaa.xyz.com' ? '.env-aaa' : $_SERVER['HTTP_HOST'] == 'bbb.xyz.com' ? '.env-bbb';
+$app->loadEnvironmentFrom($envFile);
 
-import boto3
-
-import urllib.parse as urlparse 
-
-//Resolving Customer Registration Token
-
-formFields = urlparse.parse_qs(postBody)
-
-regToken = formFields['x-amzn-marketplace-token']
-
-//If regToken present in POST request, exchange for customerID
-
-if (regToken):
-
-    marketplaceClient = boto3.client('meteringmarketplace')
-
-    customerData = marketplaceClient.resolve_customer(regToken)
-
-    productCode = customerData['ProductCode']
-
-    customerID = customerData['CustomerIdentifier']
-
-    customerAWSAccountId = customerData['CustomerAWSAccountId']
-
-    # TODO: Store customer information 
-    # TODO: Validate no other accounts share the same customerID
  ```
 
 
-Lets go to the code snippet <https://docs.aws.amazon.com/marketplace/latest/userguide/saas-code-examples.html> 
+Lets go to the code snippet <https://stackoverflow.com/questions/55998632/setup-saas-based-application-with-laravel> 
 
 
 
