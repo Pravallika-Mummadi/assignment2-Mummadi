@@ -21,5 +21,43 @@ Interesting facts about me are rare because i am boring person. The more boring 
 
  >**"Have a cup of coffee when you are happy,bored,sad"** -- *Pravallika Mummadi*
 
+ *************
+  Link for the article <https://docs.aws.amazon.com/marketplace/latest/userguide/saas-code-examples.html> 
+ ># ResolveCustomer code with x-amzn-marketplace-token token for a CustomerIdentifier, ProductCode, and CustomerAWSAccountId. 
+
+ ```
+ //Import AWS Python SDK and urllib.parse 
+
+import boto3
+
+import urllib.parse as urlparse 
+
+//Resolving Customer Registration Token
+
+formFields = urlparse.parse_qs(postBody)
+
+regToken = formFields['x-amzn-marketplace-token']
+
+//If regToken present in POST request, exchange for customerID
+
+if (regToken):
+
+    marketplaceClient = boto3.client('meteringmarketplace')
+
+    customerData = marketplaceClient.resolve_customer(regToken)
+
+    productCode = customerData['ProductCode']
+
+    customerID = customerData['CustomerIdentifier']
+
+    customerAWSAccountId = customerData['CustomerAWSAccountId']
+
+    # TODO: Store customer information 
+    # TODO: Validate no other accounts share the same customerID
+ ```
+
+
+Lets go to the code snippet <https://docs.aws.amazon.com/marketplace/latest/userguide/saas-code-examples.html> 
+
 
 
