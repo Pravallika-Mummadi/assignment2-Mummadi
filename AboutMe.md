@@ -14,4 +14,12 @@ Interesting facts about me are rare because i am boring person. The more boring 
  | Switzerland | Feel the nature | 30 |
  | Australia | Good for Tourism | 30 |
 
+ *************
+ > The funniest quote i came across is :
+
+ >**"Screenshots destroy the relationships"** -- *Pravallika Mummadi*
+
+ >**"Have a cup of coffee when you are happy,bored,sad"** -- *Pravallika Mummadi*
+
+
 
